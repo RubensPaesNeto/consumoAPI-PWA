@@ -42,4 +42,8 @@ btn.addEventListener('click', () => {
         url = `https://restcountries.com/v3.1/name/${valor}`;
         postCountries();
     } 
+    else{
+        url = urlBase
+        postCountries()
+    }
 });
